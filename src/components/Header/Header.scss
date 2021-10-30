@@ -1,0 +1,35 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(#6c6c6c80, transparent);
+    transition: all 300ms ease-out;
+    width: 100%;
+    height: 5vh;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+
+    h1{
+        font-size: 1.5rem;
+        color:#fefefe;
+        margin: 0
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    
+        li{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            padding: 10px;
+            
+        }        
+    }
+}
