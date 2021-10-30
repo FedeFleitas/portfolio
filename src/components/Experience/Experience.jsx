@@ -2,10 +2,10 @@ import React from "react";
 import './Experience.scss'
 
 
-export default function Education(props) {
+export default function Experience(props) {
     return(
-        <div id="Education">
-            <h1>Education</h1>
+        <div id="Experience">
+            <h1>EXperience</h1>
         </div>
     )
 }

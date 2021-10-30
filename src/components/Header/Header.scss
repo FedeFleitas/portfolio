@@ -1,6 +1,5 @@
 .Header{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
@@ -18,18 +17,5 @@
         font-size: 1.5rem;
         color:#fefefe;
         margin: 0
-    }
-    ul{
-        display: flex;
-        align-items: center;
-        margin: 0;
-    
-        li{
-            display: flex;
-            align-items: center;
-            list-style: none;
-            padding: 10px;
-            
-        }        
     }
 }

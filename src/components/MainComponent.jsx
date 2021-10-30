@@ -26,7 +26,7 @@ export default function MainComponent() {
                 <Route exact path='/projects' component={Projects} />
             </Switch>
             <Route exact path='/contact' component={ContactMe} />
-            <Route path='/' component={ChatBot} />
+            {/* <Route path='/' component={ChatBot} /> */}
             <Route path='/' component={NavBar} />
             <Redirect to='/home' />
         </div>
